@@ -38,7 +38,9 @@
             this.Now_Plying_box = new System.Windows.Forms.TextBox();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
             this.Ply_lst_box = new System.Windows.Forms.ListBox();
+            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.Hrchl_menu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
             // Cpyr_label
@@ -112,11 +114,21 @@
             // 
             // Ply_lst_box
             // 
+            this.Ply_lst_box.BackColor = System.Drawing.SystemColors.Info;
             this.Ply_lst_box.FormattingEnabled = true;
             this.Ply_lst_box.Location = new System.Drawing.Point(124, 289);
             this.Ply_lst_box.Name = "Ply_lst_box";
             this.Ply_lst_box.Size = new System.Drawing.Size(120, 95);
             this.Ply_lst_box.TabIndex = 6;
+            // 
+            // axWindowsMediaPlayer1
+            // 
+            this.axWindowsMediaPlayer1.Enabled = true;
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(75, 51);
+            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
+            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(219, 46);
+            this.axWindowsMediaPlayer1.TabIndex = 7;
             // 
             // Form1
             // 
@@ -124,6 +136,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(364, 511);
+            this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.Ply_lst_box);
             this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.Now_Plying_box);
@@ -137,6 +150,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Hrchl_menu.ResumeLayout(false);
             this.Hrchl_menu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -153,6 +167,7 @@
         private System.Windows.Forms.TextBox Now_Plying_box;
         private System.Windows.Forms.HScrollBar hScrollBar1;
         private System.Windows.Forms.ListBox Ply_lst_box;
+        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
     }
 }
 
