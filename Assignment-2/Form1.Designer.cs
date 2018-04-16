@@ -37,6 +37,7 @@
             this.Genre_title = new System.Windows.Forms.TextBox();
             this.Now_Plying_box = new System.Windows.Forms.TextBox();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
+            this.Ply_lst_box = new System.Windows.Forms.ListBox();
             this.Hrchl_menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,12 +110,21 @@
             this.hScrollBar1.Size = new System.Drawing.Size(159, 17);
             this.hScrollBar1.TabIndex = 5;
             // 
+            // Ply_lst_box
+            // 
+            this.Ply_lst_box.FormattingEnabled = true;
+            this.Ply_lst_box.Location = new System.Drawing.Point(124, 289);
+            this.Ply_lst_box.Name = "Ply_lst_box";
+            this.Ply_lst_box.Size = new System.Drawing.Size(120, 95);
+            this.Ply_lst_box.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(364, 511);
+            this.Controls.Add(this.Ply_lst_box);
             this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.Now_Plying_box);
             this.Controls.Add(this.Genre_title);
@@ -142,6 +152,7 @@
         private System.Windows.Forms.TextBox Genre_title;
         private System.Windows.Forms.TextBox Now_Plying_box;
         private System.Windows.Forms.HScrollBar hScrollBar1;
+        private System.Windows.Forms.ListBox Ply_lst_box;
     }
 }
 
