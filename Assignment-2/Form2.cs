@@ -21,5 +21,16 @@ namespace Assignment_2
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
     }
 }

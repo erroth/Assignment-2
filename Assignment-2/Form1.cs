@@ -107,13 +107,20 @@ namespace Assignment_2
         
         private void Gnre_lst_bx_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            string currently_playing = Gnre_lst_bx.SelectedItem.ToString();
-            Ply_lst_box.Items.Add(currently_playing);
+            string playlist = Gnre_lst_bx.SelectedItem.ToString();
+            Ply_lst_box.Items.Add(playlist);
         }
 
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
             Update_interface(hScrollBar1.Value);
+        }
+
+        private void Now_Plying_box_TextChanged(object sender, EventArgs e)
+        {
+            Now_Plying_box.Text = "";
+            string now_playing = Ply_lst_box.SelectedItem.ToString();
+            
         }
     }
 }

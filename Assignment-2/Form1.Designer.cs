@@ -108,6 +108,7 @@
             this.Now_Plying_box.ReadOnly = true;
             this.Now_Plying_box.Size = new System.Drawing.Size(159, 20);
             this.Now_Plying_box.TabIndex = 4;
+            this.Now_Plying_box.TextChanged += new System.EventHandler(this.Now_Plying_box_TextChanged);
             // 
             // hScrollBar1
             // 
