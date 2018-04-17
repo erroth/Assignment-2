@@ -93,5 +93,10 @@ namespace Assignment_2
             }
         }
 
+        private void setupToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Setup myForm = new Setup();
+            myForm.Show();
+        }
     }
 }
