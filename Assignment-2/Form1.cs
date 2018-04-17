@@ -98,5 +98,11 @@ namespace Assignment_2
             Setup myForm = new Setup();
             myForm.Show();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            About myForm = new About();
+            myForm.Show();
+        }
     }
 }
