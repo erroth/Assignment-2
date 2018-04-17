@@ -111,10 +111,14 @@
             // 
             // hScrollBar1
             // 
+            this.hScrollBar1.LargeChange = 1;
             this.hScrollBar1.Location = new System.Drawing.Point(109, 222);
+            this.hScrollBar1.Maximum = 2;
             this.hScrollBar1.Name = "hScrollBar1";
             this.hScrollBar1.Size = new System.Drawing.Size(159, 17);
             this.hScrollBar1.TabIndex = 5;
+            this.hScrollBar1.Value = 1;
+            this.hScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hScrollBar1_Scroll);
             // 
             // Ply_lst_box
             // 

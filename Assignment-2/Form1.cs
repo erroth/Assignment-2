@@ -110,5 +110,10 @@ namespace Assignment_2
             string currently_playing = Gnre_lst_bx.SelectedItem.ToString();
             Ply_lst_box.Items.Add(currently_playing);
         }
+
+        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            Update_interface(hScrollBar1.Value);
+        }
     }
 }
