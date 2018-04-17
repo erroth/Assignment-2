@@ -85,6 +85,7 @@
             this.Gnre_lst_bx.Name = "Gnre_lst_bx";
             this.Gnre_lst_bx.Size = new System.Drawing.Size(159, 69);
             this.Gnre_lst_bx.TabIndex = 2;
+            this.Gnre_lst_bx.SelectedIndexChanged += new System.EventHandler(this.Gnre_lst_bx_SelectedIndexChanged);
             // 
             // Genre_title
             // 
@@ -129,6 +130,7 @@
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(219, 46);
             this.axWindowsMediaPlayer1.TabIndex = 7;
+            this.axWindowsMediaPlayer1.Enter += new System.EventHandler(this.axWindowsMediaPlayer1_Enter);
             // 
             // Form1
             // 
