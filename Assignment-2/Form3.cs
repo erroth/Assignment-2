@@ -16,5 +16,10 @@ namespace Assignment_2
         {
             InitializeComponent();
         }
+
+        private void btn_1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

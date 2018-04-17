@@ -40,14 +40,14 @@
             this.Imp_trks.TabStop = false;
             this.Imp_trks.Text = "Imported Tracks";
             // 
-            // Form2
+            // Setup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(512, 314);
             this.Controls.Add(this.Imp_trks);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "Setup";
+            this.Text = "Setup";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
 
