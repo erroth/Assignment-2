@@ -24,11 +24,13 @@ namespace Assignment_2
 
         private void button10_Click(object sender, EventArgs e)
         {
+            //This closes the current form.
             this.Close();
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
+            //This closes the current form.
             this.Close();
 
         }

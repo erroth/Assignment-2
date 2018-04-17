@@ -19,6 +19,7 @@ namespace Assignment_2
 
         private void btn_1_Click(object sender, EventArgs e)
         {
+            //This closes the current form.
             this.Close();
         }
     }
