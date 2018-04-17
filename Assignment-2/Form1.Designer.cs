@@ -88,6 +88,7 @@
             this.Gnre_lst_bx.Size = new System.Drawing.Size(159, 69);
             this.Gnre_lst_bx.TabIndex = 2;
             this.Gnre_lst_bx.SelectedIndexChanged += new System.EventHandler(this.Gnre_lst_bx_SelectedIndexChanged);
+            this.Gnre_lst_bx.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Gnre_lst_bx_MouseDoubleClick);
             // 
             // Genre_title
             // 
@@ -123,6 +124,7 @@
             this.Ply_lst_box.Name = "Ply_lst_box";
             this.Ply_lst_box.Size = new System.Drawing.Size(120, 95);
             this.Ply_lst_box.TabIndex = 6;
+            this.Ply_lst_box.SelectedIndexChanged += new System.EventHandler(this.Ply_lst_box_SelectedIndexChanged);
             // 
             // axWindowsMediaPlayer1
             // 

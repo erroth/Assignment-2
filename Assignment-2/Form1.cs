@@ -38,11 +38,6 @@ namespace Assignment_2
 
         private void Gnre_lst_bx_SelectedIndexChanged(object sender, EventArgs e)
         {
-          
-          
-
-
-                    
             
         }
 
@@ -103,6 +98,17 @@ namespace Assignment_2
         {
             About myForm = new About();
             myForm.Show();
+        }
+
+        private void Ply_lst_box_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+        
+        private void Gnre_lst_bx_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            string currently_playing = Gnre_lst_bx.SelectedItem.ToString();
+            Ply_lst_box.Items.Add(currently_playing);
         }
     }
 }
